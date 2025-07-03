@@ -5,9 +5,7 @@ set(LINKER_SCRIPT ${PROJECT_SOURCE_DIR}/main/include/STM32H743XX_FLASH.ld)
 add_executable(stm32_rt
     
     ${PROJECT_SOURCE_DIR}/main/main.cpp
-     
     ${PROJECT_SOURCE_DIR}/main/include/src/syscalls.c
-    ${PROJECT_SOURCE_DIR}/main/include/src/global.cpp
     ${STARTUP_FILE}
 )
 target_sources(stm32_rt PRIVATE
@@ -25,7 +23,6 @@ target_sources(stm32_rt PRIVATE
     ${PROJECT_SOURCE_DIR}/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c
     ${PROJECT_SOURCE_DIR}/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c
     ${PROJECT_SOURCE_DIR}/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c
-    ${PROJECT_SOURCE_DIR}/main/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/main.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/tim.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/gpio.c

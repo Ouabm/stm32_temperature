@@ -1,4 +1,4 @@
-# Install script for directory: /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/main
+# Install script for directory: /home/oualid-boudemagh/Bureau/stm32_temperature-/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

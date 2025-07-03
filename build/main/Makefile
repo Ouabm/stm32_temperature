@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32
+CMAKE_SOURCE_DIR = /home/oualid-boudemagh/Bureau/stm32_temperature-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build
+CMAKE_BINARY_DIR = /home/oualid-boudemagh/Bureau/stm32_temperature-/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build/CMakeFiles /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build/main//CMakeFiles/progress.marks
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build/CMakeFiles 0
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/oualid-boudemagh/Bureau/stm32_temperature-/build/CMakeFiles /home/oualid-boudemagh/Bureau/stm32_temperature-/build/main//CMakeFiles/progress.marks
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oualid-boudemagh/Bureau/stm32_temperature-/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/clean
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 main/CMakeFiles/stm32_rt.dir/rule:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/CMakeFiles/stm32_rt.dir/rule
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/CMakeFiles/stm32_rt.dir/rule
 .PHONY : main/CMakeFiles/stm32_rt.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ stm32_rt: main/CMakeFiles/stm32_rt.dir/rule
 
 # fast build rule for target.
 stm32_rt/fast:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/build
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/build
 .PHONY : stm32_rt/fast
 
 include/Core/Src/gpio.obj: include/Core/Src/gpio.c.obj
@@ -135,7 +135,7 @@ include/Core/Src/gpio.obj: include/Core/Src/gpio.c.obj
 
 # target to build an object file
 include/Core/Src/gpio.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.obj
 .PHONY : include/Core/Src/gpio.c.obj
 
 include/Core/Src/gpio.i: include/Core/Src/gpio.c.i
@@ -143,7 +143,7 @@ include/Core/Src/gpio.i: include/Core/Src/gpio.c.i
 
 # target to preprocess a source file
 include/Core/Src/gpio.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.i
 .PHONY : include/Core/Src/gpio.c.i
 
 include/Core/Src/gpio.s: include/Core/Src/gpio.c.s
@@ -151,7 +151,7 @@ include/Core/Src/gpio.s: include/Core/Src/gpio.c.s
 
 # target to generate assembly for a file
 include/Core/Src/gpio.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/gpio.c.s
 .PHONY : include/Core/Src/gpio.c.s
 
 include/Core/Src/main.obj: include/Core/Src/main.c.obj
@@ -159,7 +159,7 @@ include/Core/Src/main.obj: include/Core/Src/main.c.obj
 
 # target to build an object file
 include/Core/Src/main.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.obj
 .PHONY : include/Core/Src/main.c.obj
 
 include/Core/Src/main.i: include/Core/Src/main.c.i
@@ -167,7 +167,7 @@ include/Core/Src/main.i: include/Core/Src/main.c.i
 
 # target to preprocess a source file
 include/Core/Src/main.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.i
 .PHONY : include/Core/Src/main.c.i
 
 include/Core/Src/main.s: include/Core/Src/main.c.s
@@ -175,7 +175,7 @@ include/Core/Src/main.s: include/Core/Src/main.c.s
 
 # target to generate assembly for a file
 include/Core/Src/main.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/main.c.s
 .PHONY : include/Core/Src/main.c.s
 
 include/Core/Src/stm32h7xx_hal_msp.obj: include/Core/Src/stm32h7xx_hal_msp.c.obj
@@ -183,7 +183,7 @@ include/Core/Src/stm32h7xx_hal_msp.obj: include/Core/Src/stm32h7xx_hal_msp.c.obj
 
 # target to build an object file
 include/Core/Src/stm32h7xx_hal_msp.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.obj
 .PHONY : include/Core/Src/stm32h7xx_hal_msp.c.obj
 
 include/Core/Src/stm32h7xx_hal_msp.i: include/Core/Src/stm32h7xx_hal_msp.c.i
@@ -191,7 +191,7 @@ include/Core/Src/stm32h7xx_hal_msp.i: include/Core/Src/stm32h7xx_hal_msp.c.i
 
 # target to preprocess a source file
 include/Core/Src/stm32h7xx_hal_msp.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.i
 .PHONY : include/Core/Src/stm32h7xx_hal_msp.c.i
 
 include/Core/Src/stm32h7xx_hal_msp.s: include/Core/Src/stm32h7xx_hal_msp.c.s
@@ -199,7 +199,7 @@ include/Core/Src/stm32h7xx_hal_msp.s: include/Core/Src/stm32h7xx_hal_msp.c.s
 
 # target to generate assembly for a file
 include/Core/Src/stm32h7xx_hal_msp.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/stm32h7xx_hal_msp.c.s
 .PHONY : include/Core/Src/stm32h7xx_hal_msp.c.s
 
 include/Core/Src/system_stm32h7xx.obj: include/Core/Src/system_stm32h7xx.c.obj
@@ -207,7 +207,7 @@ include/Core/Src/system_stm32h7xx.obj: include/Core/Src/system_stm32h7xx.c.obj
 
 # target to build an object file
 include/Core/Src/system_stm32h7xx.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.obj
 .PHONY : include/Core/Src/system_stm32h7xx.c.obj
 
 include/Core/Src/system_stm32h7xx.i: include/Core/Src/system_stm32h7xx.c.i
@@ -215,7 +215,7 @@ include/Core/Src/system_stm32h7xx.i: include/Core/Src/system_stm32h7xx.c.i
 
 # target to preprocess a source file
 include/Core/Src/system_stm32h7xx.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.i
 .PHONY : include/Core/Src/system_stm32h7xx.c.i
 
 include/Core/Src/system_stm32h7xx.s: include/Core/Src/system_stm32h7xx.c.s
@@ -223,7 +223,7 @@ include/Core/Src/system_stm32h7xx.s: include/Core/Src/system_stm32h7xx.c.s
 
 # target to generate assembly for a file
 include/Core/Src/system_stm32h7xx.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/system_stm32h7xx.c.s
 .PHONY : include/Core/Src/system_stm32h7xx.c.s
 
 include/Core/Src/tim.obj: include/Core/Src/tim.c.obj
@@ -231,7 +231,7 @@ include/Core/Src/tim.obj: include/Core/Src/tim.c.obj
 
 # target to build an object file
 include/Core/Src/tim.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/tim.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/tim.c.obj
 .PHONY : include/Core/Src/tim.c.obj
 
 include/Core/Src/tim.i: include/Core/Src/tim.c.i
@@ -239,7 +239,7 @@ include/Core/Src/tim.i: include/Core/Src/tim.c.i
 
 # target to preprocess a source file
 include/Core/Src/tim.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/tim.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/tim.c.i
 .PHONY : include/Core/Src/tim.c.i
 
 include/Core/Src/tim.s: include/Core/Src/tim.c.s
@@ -247,7 +247,7 @@ include/Core/Src/tim.s: include/Core/Src/tim.c.s
 
 # target to generate assembly for a file
 include/Core/Src/tim.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/tim.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/tim.c.s
 .PHONY : include/Core/Src/tim.c.s
 
 include/Core/Src/usart.obj: include/Core/Src/usart.c.obj
@@ -255,7 +255,7 @@ include/Core/Src/usart.obj: include/Core/Src/usart.c.obj
 
 # target to build an object file
 include/Core/Src/usart.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.obj
 .PHONY : include/Core/Src/usart.c.obj
 
 include/Core/Src/usart.i: include/Core/Src/usart.c.i
@@ -263,7 +263,7 @@ include/Core/Src/usart.i: include/Core/Src/usart.c.i
 
 # target to preprocess a source file
 include/Core/Src/usart.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.i
 .PHONY : include/Core/Src/usart.c.i
 
 include/Core/Src/usart.s: include/Core/Src/usart.c.s
@@ -271,7 +271,7 @@ include/Core/Src/usart.s: include/Core/Src/usart.c.s
 
 # target to generate assembly for a file
 include/Core/Src/usart.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Core/Src/usart.c.s
 .PHONY : include/Core/Src/usart.c.s
 
 include/DHT_11/DHT.obj: include/DHT_11/DHT.c.obj
@@ -279,7 +279,7 @@ include/DHT_11/DHT.obj: include/DHT_11/DHT.c.obj
 
 # target to build an object file
 include/DHT_11/DHT.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/DHT_11/DHT.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/DHT_11/DHT.c.obj
 .PHONY : include/DHT_11/DHT.c.obj
 
 include/DHT_11/DHT.i: include/DHT_11/DHT.c.i
@@ -287,7 +287,7 @@ include/DHT_11/DHT.i: include/DHT_11/DHT.c.i
 
 # target to preprocess a source file
 include/DHT_11/DHT.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/DHT_11/DHT.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/DHT_11/DHT.c.i
 .PHONY : include/DHT_11/DHT.c.i
 
 include/DHT_11/DHT.s: include/DHT_11/DHT.c.s
@@ -295,7 +295,7 @@ include/DHT_11/DHT.s: include/DHT_11/DHT.c.s
 
 # target to generate assembly for a file
 include/DHT_11/DHT.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/DHT_11/DHT.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/DHT_11/DHT.c.s
 .PHONY : include/DHT_11/DHT.c.s
 
 include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.obj: include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s.obj
@@ -303,7 +303,7 @@ include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743
 
 # target to build an object file
 include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s.obj
 .PHONY : include/Drivers/CMSIS/Device/ST/STM32H7xx/Source/Templates/gcc/startup_stm32h743xx.s.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
@@ -311,7 +311,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.obj: include/Drivers/STM3
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
@@ -319,7 +319,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.i: include/Drivers/STM32H
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
@@ -327,7 +327,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.s: include/Drivers/STM32H
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
@@ -335,7 +335,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.obj: include/Drive
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
@@ -343,7 +343,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.i: include/Drivers
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
@@ -351,7 +351,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.s: include/Drivers
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
@@ -359,7 +359,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.obj: include/Drivers
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
@@ -367,7 +367,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.i: include/Drivers/S
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
@@ -375,7 +375,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.s: include/Drivers/S
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
@@ -383,7 +383,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.obj: include/Drivers/
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
@@ -391,7 +391,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.i: include/Drivers/ST
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
@@ -399,7 +399,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.s: include/Drivers/ST
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
@@ -407,7 +407,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.obj: include/Drive
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
@@ -415,7 +415,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.i: include/Drivers
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
@@ -423,7 +423,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.s: include/Drivers
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
@@ -431,7 +431,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.obj: include/Drive
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
@@ -439,7 +439,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.i: include/Drivers
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
@@ -447,7 +447,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.s: include/Drivers
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
@@ -455,7 +455,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.obj: include/Drivers/
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
@@ -463,7 +463,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.i: include/Drivers/ST
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
@@ -471,7 +471,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.s: include/Drivers/ST
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
@@ -479,7 +479,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.obj: include/Drive
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
@@ -487,7 +487,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.i: include/Drivers
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
@@ -495,7 +495,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.s: include/Drivers
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
@@ -503,7 +503,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.obj: include/Drivers/
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
@@ -511,7 +511,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.i: include/Drivers/ST
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
@@ -519,7 +519,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.s: include/Drivers/ST
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
@@ -527,7 +527,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.obj: include/Drive
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
@@ -535,7 +535,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.i: include/Drivers
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
@@ -543,7 +543,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.s: include/Drivers
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
@@ -551,7 +551,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.obj: include/Drivers
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
@@ -559,7 +559,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.i: include/Drivers/S
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
@@ -567,7 +567,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.s: include/Drivers/S
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.s
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
@@ -575,7 +575,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj: include/Driv
 
 # target to build an object file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
@@ -583,7 +583,7 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i: include/Driver
 
 # target to preprocess a source file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.i
 
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
@@ -591,63 +591,15 @@ include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s: include/Driver
 
 # target to generate assembly for a file
 include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
 .PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.s
-
-include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-.PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj
-
-# target to build an object file
-include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-.PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.obj
-
-include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
-.PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i
-
-# target to preprocess a source file
-include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
-.PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.i
-
-include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s: include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
-.PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s
-
-# target to generate assembly for a file
-include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
-.PHONY : include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c.s
-
-include/src/global.obj: include/src/global.cpp.obj
-.PHONY : include/src/global.obj
-
-# target to build an object file
-include/src/global.cpp.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/global.cpp.obj
-.PHONY : include/src/global.cpp.obj
-
-include/src/global.i: include/src/global.cpp.i
-.PHONY : include/src/global.i
-
-# target to preprocess a source file
-include/src/global.cpp.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/global.cpp.i
-.PHONY : include/src/global.cpp.i
-
-include/src/global.s: include/src/global.cpp.s
-.PHONY : include/src/global.s
-
-# target to generate assembly for a file
-include/src/global.cpp.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/global.cpp.s
-.PHONY : include/src/global.cpp.s
 
 include/src/syscalls.obj: include/src/syscalls.c.obj
 .PHONY : include/src/syscalls.obj
 
 # target to build an object file
 include/src/syscalls.c.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.obj
 .PHONY : include/src/syscalls.c.obj
 
 include/src/syscalls.i: include/src/syscalls.c.i
@@ -655,7 +607,7 @@ include/src/syscalls.i: include/src/syscalls.c.i
 
 # target to preprocess a source file
 include/src/syscalls.c.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.i
 .PHONY : include/src/syscalls.c.i
 
 include/src/syscalls.s: include/src/syscalls.c.s
@@ -663,7 +615,7 @@ include/src/syscalls.s: include/src/syscalls.c.s
 
 # target to generate assembly for a file
 include/src/syscalls.c.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/include/src/syscalls.c.s
 .PHONY : include/src/syscalls.c.s
 
 main.obj: main.cpp.obj
@@ -671,7 +623,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/main.cpp.obj
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -679,7 +631,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/main.cpp.i
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -687,7 +639,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/main.cpp.s
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(MAKE) $(MAKESILENT) -f main/CMakeFiles/stm32_rt.dir/build.make main/CMakeFiles/stm32_rt.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -757,12 +709,6 @@ help:
 	@echo "... include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.obj"
 	@echo "... include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.i"
 	@echo "... include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.s"
-	@echo "... include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.obj"
-	@echo "... include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.i"
-	@echo "... include/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.s"
-	@echo "... include/src/global.obj"
-	@echo "... include/src/global.i"
-	@echo "... include/src/global.s"
 	@echo "... include/src/syscalls.obj"
 	@echo "... include/src/syscalls.i"
 	@echo "... include/src/syscalls.s"
@@ -780,6 +726,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/oualid-boudemagh/Bureau/stm32_temperature-/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

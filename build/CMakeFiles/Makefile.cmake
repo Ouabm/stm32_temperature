@@ -7,13 +7,13 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/CMakeLists.txt"
+  "/home/oualid-boudemagh/Bureau/stm32_temperature-/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeASMCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/cmake/gcc-arm-none-eabi.cmake"
-  "/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/main/CMakeLists.txt"
+  "/home/oualid-boudemagh/Bureau/stm32_temperature-/cmake/gcc-arm-none-eabi.cmake"
+  "/home/oualid-boudemagh/Bureau/stm32_temperature-/main/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeASMCompiler.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"

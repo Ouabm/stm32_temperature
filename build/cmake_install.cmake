@@ -1,4 +1,4 @@
-# Install script for directory: /home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32
+# Install script for directory: /home/oualid-boudemagh/Bureau/stm32_temperature-
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build/main/cmake_install.cmake")
+  include("/home/oualid-boudemagh/Bureau/stm32_temperature-/build/main/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oualid-boudemagh/Bureau/Cadmium_projects/cadmium_v2/example/Temp_stm32/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oualid-boudemagh/Bureau/stm32_temperature-/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
