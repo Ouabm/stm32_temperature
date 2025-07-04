@@ -42,5 +42,5 @@ cd stm32_temperature/
 ```
   then
 ```bash
-./Build_stm32
+./build_stm32
 ```
