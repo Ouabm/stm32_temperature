@@ -44,3 +44,4 @@ cd stm32_temperature/
 ```bash
 ./build_stm32
 ```
+![Aperçu](assets/img.jpeg)
