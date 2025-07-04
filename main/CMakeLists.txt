@@ -30,9 +30,6 @@ target_sources(stm32_rt PRIVATE
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/system_stm32h7xx.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/stm32h7xx_hal_msp.c
     ${PROJECT_SOURCE_DIR}/main/include/Core/Src/system_stm32h7xx.c
-
-
-    
  
 )
 
